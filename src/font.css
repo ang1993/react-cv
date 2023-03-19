@@ -1,0 +1,19 @@
+@font-face {
+    font-family: "AktivGroteskBlack";
+    src: url("./assets/Fonts/AktivGrotesk-Black.otf");
+  }
+
+@font-face {
+    font-family: "AktivGroteskBold";
+    src: url("./assets/Fonts/AktivGrotesk-Bold.otf");
+  }
+
+@font-face {
+    font-family: "AktivGroteskLightItalic";
+    src: url("./assets/Fonts/AktivGrotesk-LightItalic.otf");
+  }
+
+ @font-face {
+    font-family: "AktivGroteskMedium";
+    src: url("./assets/Fonts/AktivGrotesk-Medium.otf");
+  }

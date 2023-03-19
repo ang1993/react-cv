@@ -1,0 +1,52 @@
+.About {
+    display: flex;
+    width: 67%;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 90px;
+}
+
+.HighlighText{
+    font-size: 1.7rem;
+    line-height: 32px;
+}
+
+.AboutLeftColumn {
+    width: 45%;
+}
+
+.AboutRightColumn {
+    width: 34%;
+    padding-top: 12.5rem;
+}
+
+p {
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.AboutImg {
+    mix-blend-mode: multiply;
+}
+
+#AboutTitle {
+    z-index: 3;
+}
+
+#AboutTitle::after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: -16px;
+    margin-left: 7px;
+    width: 100px;
+    height: 15px;
+    margin-right: 5px;
+    background: #E85454;
+    opacity: 0.8;
+    z-index: -2;
+}
+
+/* 
+MediaQueries */
+

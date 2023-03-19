@@ -1,0 +1,45 @@
+.FullFooter {
+    background-color: #202020;
+    color: #EFEFEE;
+    width: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.Footer {
+    display: flex;
+    width: 83%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.HeroName {
+    font-size: 2.3rem;
+    font-family: AktivGroteskBold;
+}
+
+.FooterNavItemBoxB {
+    width: 40%;
+}
+
+.FooterNavItemBox {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FooterEmail {
+    font-size: 1.1rem;
+    width: 100%;
+    margin: 0;
+}
+
+.FooterNavItem {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #EFEFEE;
+    padding: 0 0px 0 100px;
+}

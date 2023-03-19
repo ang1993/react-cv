@@ -1,0 +1,88 @@
+.Contact {
+    display: flex;
+    width: 67%;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 70px 0 90px 0;
+}
+
+.BlackBox {
+    background-color: #202020;
+    padding: 20px 0 20px 35px;
+}
+
+.ContactHighlighText {
+    font-size: 1.7rem;
+    line-height: 32px;
+    color: #EFEFEE;
+}
+
+.ContactLeftColumn{
+    width: 45%;
+}
+
+.ContactRightColumn{
+    width: 34%;
+    padding-top: 0px;
+}
+
+#ContactTitle {
+    z-index: 3;
+}
+
+#ContactTitle::after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: -16px;
+    margin-left: 7px;
+    width: 100px;
+    height: 15px;
+    margin-right: 5px;
+    background: #E85454;
+    opacity: 0.8;
+    z-index: -2;
+}
+
+form {
+    text-align: right;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px;
+    border: none;
+}
+
+input {
+    height: 2rem;
+    border-color: #202020;
+    background-color: #EFEFEE;
+    padding-left: 10px;
+}
+
+input::placeholder {
+    color: #202020;
+    font-size: 1rem;
+}
+
+#message {
+    padding-bottom: 70px;
+}
+
+.FormButton {
+    width: 6rem;
+    height: 2rem;
+    background-color: #202020;
+    color: #EFEFEE;
+    font-weight: bolder;
+    font-size: 1rem;
+    margin-right: 2px;
+    margin-top: 7px;
+}
+
+.FormButton:hover {
+    cursor: pointer;
+}

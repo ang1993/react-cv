@@ -1,0 +1,61 @@
+.Nav {
+    display: flex;
+    width: 83%;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.HeroName {
+    font-size: 2.3rem;
+    font-family: AktivGroteskBold;
+}
+
+.HeroSubtitle {
+    font-size: 1.1rem;
+    width: 100%;
+    margin: 0;
+}
+
+.FlexNavItem {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.FlexNavItemB {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.NavItem {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #202020;
+}
+
+/*MediaQueries*/
+
+@media only screen and (max-width: 600px) {
+    .Nav {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .HeroName {
+        font-size: 1.6rem;
+    }
+
+    .FlexNavItemB {
+        width: 100%;
+    }
+
+    .FlexNavItem {
+        width: 100%;
+    }
+
+}

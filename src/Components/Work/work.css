@@ -1,0 +1,58 @@
+.FullWork {
+    background-color: #202020;
+    color: #EFEFEE;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Work {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 67%;
+    padding: 90px 0;
+}
+
+.SelectedWorksContainer {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    row-gap: 1rem;
+    justify-content: space-between;
+    align-self: center;
+    padding: 20px 0;
+}
+
+.SelectedWorkItem {
+    width: 22%;
+}
+
+.WorkImage {
+    width: 100%;
+}
+
+.WorkDescription{
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+}
+
+#WorkTitle {
+    z-index: 3;
+}
+
+#WorkTitle::after {
+    content: "";
+    display: block;
+    position: absolute;
+    margin-top: -26px;
+    margin-left: 7px;
+    width: 100px;
+    height: 15px;
+    margin-right: 5px;
+    background: #E85454;
+    opacity: 0.8;
+    z-index: -2;
+}
