@@ -31,6 +31,11 @@
     justify-content: space-between;
 }
 
+.FooterNavItemBox a:hover {
+    color: #E85454;
+    transition: all 0.2s ease-in;
+}
+
 .FooterEmail {
     font-size: 1.1rem;
     width: 100%;

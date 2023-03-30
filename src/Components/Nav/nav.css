@@ -37,6 +37,11 @@
     color: #202020;
 }
 
+.NavItem:hover {
+    color: #E85454;
+    transition: all 0.2s ease-in;
+}
+
 /*MediaQueries*/
 
 @media only screen and (max-width: 600px) {

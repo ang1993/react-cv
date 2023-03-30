@@ -21,22 +21,22 @@ export const CV = {
         selectedworks: [
             {
                 title: "Front-End",
-                description: "Aquí va una breve descripción pero ahora no se me ocurre.",
-                image: artwork,
+                description: "Petit lorem ipsum perque no se que posar ara, ja farem :D",
+                image: graphicdesign,
             },
             {
                 title: "UI",
-                description: "Aquí va una breve descripción pero ahora no se me ocurre.",
+                description: "Petit lorem ipsum perque no se que posar ara, ja farem :D",
                 image: artwork,
             },
             {
                 title: "Graphic Design",
-                description: "Aquí va una breve descripción pero ahora no se me ocurre.",
+                description: "Petit lorem ipsum perque no se que posar ara, ja farem :D",
                 image: graphicdesign,
             },
             {
                 title: "Artwork",
-                description: "Aquí va una breve descripción pero ahora no se me ocurre.",
+                description: "Petit lorem ipsum perque no se que posar ara, ja farem :D",
                 image: artwork,
             },
         ]

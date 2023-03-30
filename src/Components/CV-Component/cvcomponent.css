@@ -59,6 +59,8 @@
 
 .btn:hover {
     cursor: pointer;
+    color: #E85454;
+    transition: all 0.2s ease-in;
 }
 
 .btn:focus {
